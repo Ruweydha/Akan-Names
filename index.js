@@ -56,4 +56,7 @@ function calculate(){
   var yy = parseInt(year);
   var mm = parseInt(month.value);
   var dd = parseInt(day.value);
+
+  var dayOfWeek = Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+
 }
