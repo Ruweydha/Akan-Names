@@ -57,7 +57,12 @@ function calculate(){
   var mm = parseInt(month.value);
   var dd = parseInt(day.value);
 
-  var dayOfWeek = Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+  if(cc<= 19){
+    var dayOfWeek = Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7-1);
+  }
+  else{
+    var dayOfWeek = Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+  }
 
   if(female.checked ==true && dayOfWeek==0){
       document.getElementById("akan").innerHTML = (`You were born on a Sunday. Your Akan name is ${femaleNames[0]}`);
