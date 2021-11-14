@@ -18,4 +18,15 @@ function validate(e){
       alert("Enter a valid year")
       yearBorn.value ="";
   }
+  else if (month.value == "" ){
+    document.getElementById("month").style.border = "2px solid red";
+    alert("Please fill out the month you were born");
+    month.value="";
+    
+}
+else if (month.value <=0 || month.value > 12){
+    document.getElementById("month").style.border = "2px solid red";
+    alert("Enter a valid month");
+    month.value="";
+}
 }
