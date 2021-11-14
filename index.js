@@ -48,3 +48,12 @@ function validate(e){
     calculate();
   }
 }
+
+function calculate(){
+  var century = yearBorn.value.slice(0,2);
+  var year = yearBorn.value.slice(2,4);
+  var cc = parseInt(century);
+  var yy = parseInt(year);
+  var mm = parseInt(month.value);
+  var dd = parseInt(day.value);
+}
