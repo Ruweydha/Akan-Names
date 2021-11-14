@@ -103,3 +103,5 @@ function calculate(){
   }
 
 }
+document.getElementById("btn").onclick = validate;
+document.getElementById("btn2").reset();
