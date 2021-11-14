@@ -80,5 +80,26 @@ function calculate(){
   else  if(female.checked ==true && dayOfWeek==6){
     document.getElementById("akan").innerHTML = (`You were born on a Saturday. Your Akan name is ${femaleNames[6]}`);
   }
+  else  if(male.checked ==true && dayOfWeek==0){
+    document.getElementById("akan").innerHTML = (`You were born on a Sunday. Your Akan name is ${maleNames[0]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==1){
+    document.getElementById("akan").innerHTML = (`You were born on a Monday. Your Akan name is ${maleNames[1]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==2){
+    document.getElementById("akan").innerHTML = (`You were born on a Tuesday. Your Akan name is ${maleNames[2]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==3){
+    document.getElementById("akan").innerHTML = (`You were born on a Wednesday. Your Akan name is ${maleNames[3]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==4){
+    document.getElementById("akan").innerHTML = (`You were born on a Thursday. Your Akan name is ${maleNames[4]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==5){
+    document.getElementById("akan").innerHTML = (`You were born on a Friday. Your Akan name is ${maleNames[5]}`);
+  }
+  else  if(male.checked ==true && dayOfWeek==6){
+    document.getElementById("akan").innerHTML = (`You were born on a Saturday. Your Akan name is ${maleNames[6]}`);
+  }
 
 }
