@@ -44,4 +44,7 @@ function validate(e){
   else if (female.checked ==true && male.checked ==true  ){
     alert("Please pick one gender");
   }
+  else{
+    calculate();
+  }
 }
