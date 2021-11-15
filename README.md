@@ -2,7 +2,7 @@
 #### This is an Akan Names Website.
 #### By Ruweydha Abdinoor.
 ## Description
-This is a website that generates an Akan name for the user depending on the day of the week that they were born and their gender. The user needs to enter the details of the day that they were born and the Akan name is generated. It contains a table to refer to for those who know the day of he week that they were born.
+This is a website that generates an Akan name for the user depending on the day of the week that they were born and their gender. The user needs to enter the details of the day that they were born and the Akan name is generated. It contains a table to refer to for those who know the day of the week that they were born.
 ## Setup/Installation 
 This application currently only works on a web browser only hence no installation required.
 
@@ -15,7 +15,7 @@ None at the moment.
 ## Technologies Used
 * HTML- Which was used for the structure of the page.
 * CSS- Which was used to style the different elements in the page.
-* JavaScript - Which was used to validate the form, to calculate day of week someone was born and generate the Akan name.
+* JavaScript - Which was used to validate the form, find day of week someone was born and generate their Akan name.
 
 ## BDD
 
