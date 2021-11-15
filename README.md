@@ -51,6 +51,7 @@ None at the moment.
 LinkedIn - [Ruweydha Abdinoor](https://www.linkedin.com/in/ruweydha-abdinoor-859921224/)
  GitHub- [Ruweydha Abdinoor](https://github.com/Ruweydha)
  Instagram- [Ruweydha Abdinoor](https://www.instagram.com/_.ruweydha._/)
+ Repo- [Akan Name](https://ruweydha.github.io/Akan-Names/)
  
 
 ### License
